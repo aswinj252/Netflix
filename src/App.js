@@ -1,10 +1,15 @@
-
-import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar/Navbar";
+import './app.css'
+import Banner from "./components/Navbar/Banner/Banner";
+import RowPost from "./components/Navbar/RowPost/RowPost";
 
 function App() {
   return (
     <div>
-      <h1>Netflix</h1>
+       <Navbar/>
+      <Banner/>
+      <RowPost/>
     </div>
   );
 }
